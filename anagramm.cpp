@@ -51,7 +51,7 @@ int main(){
         cout << "Милорд, кол-во уникательных элементов этих строк различается.";
     }else{
         
-        for(int i = 0; i < uni1.size(); i++){
+        for(int i = 0; i < n; i++){
             if(biba[odan[i]] != boba[odan[i]]){
                 bul += 1;
             }
